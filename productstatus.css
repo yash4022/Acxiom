@@ -1,0 +1,16 @@
+.status-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.status-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.status-grid div {
+    background-color: #77c;
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,13 @@
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product {
+    background-color: #3b82f6;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+.checkout-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+input, select {
+    padding: 5px;
+}
+
+.order-btn {
+    grid-column: span 2;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,12 @@
+.vendor-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.vendor-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}

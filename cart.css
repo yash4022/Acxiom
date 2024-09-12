@@ -1,0 +1,41 @@
+.cart-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-detail {
+    padding: 10px;
+    background-color: #77c;
+    border-radius: 5px;
+}
+
+.remove {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+.checkout-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+}
